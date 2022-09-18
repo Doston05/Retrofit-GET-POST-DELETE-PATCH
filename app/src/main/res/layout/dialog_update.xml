@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Update user info"/>
+    <EditText
+        android:id="@+id/name_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/email_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/status_Ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="status"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/save_user_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="update user"/>
+    <Button
+        android:id="@+id/exit_btn_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Exit"/>
+
+
+</LinearLayout>
